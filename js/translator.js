@@ -139,8 +139,8 @@ class Translator {
       persist: false,
       languages: ["en"],
       defaultLanguage: "",
-      detectLanguage: true,
-      filesLocation: "../i18n"
+      detectLanguage: false,
+      filesLocation: "itdevsite/i18n"
     };
   }
 }
