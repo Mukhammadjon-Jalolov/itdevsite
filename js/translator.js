@@ -140,7 +140,7 @@ class Translator {
       languages: ["en"],
       defaultLanguage: "",
       detectLanguage: false,
-      filesLocation: "https://mukhammadjon-jalolov.github.io/itdevsite/i18n/xx"
+      filesLocation: "https://mukhammadjon-jalolov.github.io/itdevsite/i18n"
     };
   }
 }
