@@ -30,7 +30,7 @@ class Translator {
     return lang.substr(0, 2);
   }
 
-  
+
   _fetch(path) {
     return fetch(path)
       .then(response => response.json())
@@ -41,14 +41,13 @@ class Translator {
       });
   }
 
+
   async _getResource(lang) {
     if (this._cache.has(lang)) {
       return JSON.parse(this._cache.get(lang));
     }
 
-    var translation = await this._fetch(
-      `${this._options.filesLocation}/${lang}.json`
-    );
+    var translation = await this._fetch(`${this._options.filesLocation}/${lang}.json`);
 
     if (!this._cache.has(lang)) {
       this._cache.set(lang, JSON.stringify(translation));
@@ -141,7 +140,7 @@ class Translator {
       languages: ["en"],
       defaultLanguage: "",
       detectLanguage: true,
-      filesLocation: "/i18n"
+      filesLocation: "../i18n"
     };
   }
 }
