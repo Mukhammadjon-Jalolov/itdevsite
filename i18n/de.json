@@ -1,0 +1,60 @@
+{
+  "service": {
+    "service": "Service",
+    "service1": "Wir bieten Vollzeit-Remote-Softwareentwickler aus Zentralasien, die langfristig Ihren Anforderungen entsprechen. Egal, ob Sie einen Newcomer suchen, der mit Ihrem Unternehmen wächst, oder jemanden mit mehr Erfahrung – wir haben den perfekten Partner für Sie. Gemeinsam finden wir nach unserem Rekrutierungsprozess in kürzester Zeit einen Entwickler, wie Sie unten sehen.",
+    "service2": "Die Idee ist, qualifizierte Softwareentwickler aus Zentralasien mit dem europäischen Markt zu verbinden, da wir wissen, dass es schwierig ist, jemanden zu finden, der qualifiziert und erschwinglich ist. Darüber hinaus möchten wir es Unternehmen ermöglichen, Geld zu sparen, ihre Fähigkeiten zu erweitern und wettbewerbsfähiger zu werden.",
+    "service3": "Wir möchten, dass Sie die Möglichkeit erhalten, von den vielfältigen Vorteilen zu profitieren, die unsere langjährigen Remote-Mitarbeiter bieten."
+  },
+
+  "steps": {
+    "steps1": "Anforderungsprofil",
+    "steps1_txt": "Sie sagen uns, wen Sie suchen",
+
+    "steps2": "Screening",
+    "steps2_txt": "Wir suchen nach möglichen Kandidaten und treffen eine Vorauswahl durch unseren Rekrutierungsprozess",
+
+    "steps3": "Testaufgabe",
+    "steps3_txt": "Mit einer Testaufgabe stellen die Bewerber ihre Fähigkeiten unter Beweis",
+
+    "steps4": "Auswerten",
+    "steps4_txt": "Nach Überprüfung ihrer Fähigkeiten senden wir Ihnen die Ergebnisse zu",
+
+    "steps5": "Rekrutierung",
+    "steps5_txt": "Sie gehen die Lebensläufe und die Ergebnisse der Tests durch und teilen uns mit, welchen Kandidaten Sie einstellen möchten."
+  },
+  
+  "advantages_main": "Vorteile",
+  "advantages": {
+    "scalability": "Skalierbarkeit",
+    "scalability_txt1": "Zeitsparend - finden Sie sehr schnell einen neuen Entwickler",
+    "scalability_txt2": "Verfügbarkeit - Wählen Sie aus vielen hochqualifizierten Entwicklern",
+    "scalability_txt3": "Ein Entwickler oder gleich ein ganzes Team – Sie entscheiden",
+
+    "price_ratio": "Preis leistungs verhältnis",
+    "price_ratio_txt":"Sparen Sie bis zu 70 % im Vergleich zu dem, was Ihr Unternehmen für einen regulären Entwickler mit der gleichen Qualifikation und Erfahrung zahlen würde",
+
+    "flexibility": "Flexibilität",
+    "flexibility_txt1": "Sie sind nicht an das klassische Rekrutierungsverfahren gebunden",
+    "flexibility_txt2": "Sie können die Laufzeit wählen",
+    "flexibility_txt3": "Sie erhalten maßgeschneiderte Lösungen",
+
+    "transparency": "Transparenz",
+    "transparency_txt": "Keine versteckten Kosten, Sie zahlen einen monatlichen Betrag für Ihren neuen Mitarbeiter – fertig!"
+  },
+
+  "levels_pricing_main": "Ebenen & Preise",
+
+  "levels_pricing": {
+    "junior": "Junior",
+    "junior_txt": "BS in Informatik weniger als ein Jahr Erfahrung",
+    "junior_price": "ab 1.500 €/Monat",
+
+    "inter": "Dazwischenliegend",
+    "inter_txt": "BS oder MS in Informatik 1-3 Jahre Erfahrung",
+    "inter_price": "ab 2.250 €/Monat",
+    
+    "senior": "Senior",
+    "senior_txt": "BS oder MS in Informatik 3+ Jahre Erfahrung",
+    "senior_price": "ab 3.000 €/Monat"
+  }
+}

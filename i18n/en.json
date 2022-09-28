@@ -1,0 +1,60 @@
+{
+  "service": {
+    "service": "Service",
+    "service1": "We offer full-time remote Software Developers from Central Asia, fitting your needs on a long-term basis. Regardless if you are looking for a newcomer to grow with your company or someone with more experience - we have the perfect match for you. Together we will find a developer in no time following our recruiting process as you see down below.",
+    "service2": "The idea is to connect qualified Software Developers from Central Asia to the European market, because we know it is hard to find someone who is qualified and affordable too. Moreover, we want to enable companies to save money, expand their capabilities and get more competitive.",
+    "service3": "We want you to get the opportunity to benefit from the various advantages, our long-term remote employees offer."
+  },
+
+  "steps": {
+    "steps1": "Requirement profile",
+    "steps1_txt": "You tell us who you are looking for",
+
+    "steps2": "Screening",
+    "steps2_txt": "We search for possible candidates and preselect them through our recruiting process",
+
+    "steps3": "Test task",
+    "steps3_txt": "With a test task the applicants will proof their capabilities",
+
+    "steps4": "Evaluate",
+    "steps4_txt": "After checking their skills we will send you the results",
+
+    "steps5": "Recruitment",
+    "steps5_txt": "You go through the CVs and the results of the tests and tell us which candidate you want to recruit."
+  },
+  
+  "advantages_main": "Advantages",
+  "advantages": {
+    "scalability": "Scalability",
+    "scalability_txt1": "Time effecient - find a new developer very fast",
+    "scalability_txt2": "Availability - Choose from many highly educated Devolpers",
+    "scalability_txt3": "One developer or even a whole team - you decide",
+    
+    "price_ratio": "Price Performance Ratio",
+    "price_ratio_txt":"Save up to 70% compared to what your company would pay for a regular developer with the same qualification and experience",
+
+    "flexibility": "Flexibility",
+    "flexibility_txt1": "You are not bond to the traditional recruitment procedure",
+    "flexibility_txt2": "You can choose the runnig time",
+    "flexibility_txt3": "You get custome made solutions",
+
+    "transparency": "Transparency",
+    "transparency_txt": "No hidden costs, you will pay a monthly fee for your new employee - thats it!"
+  },
+
+  "levels_pricing_main": "Levels & Pricing",
+
+  "levels_pricing": {
+    "junior": "Junior",
+    "junior_txt": "BS in computer science less than one year expierence",
+    "junior_price": "from € 1.500/month",
+
+    "inter": "Intermediate",
+    "inter_txt": "BS or MS in computer science 1-3 years of expierence",
+    "inter_price": "from € 2.250/month",
+    
+    "senior": "Senior",
+    "senior_txt": "BS or MS in computer science 3+ years of expierence",
+    "senior_price": "from € 3.000/month"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "service": "Service",
+
+  "steps": "There’s a big difference between juicy chicken breasts and rubbery chicken breasts. Obviously, you want to avoid the latter at all costs. Follow these 4 steps and you’re gold. You want to add protein to favorites like Caesar salad or fix up a quick chicken salad or club sandwich? Try this method and savor the results.",
+  
+  "advantages_main": "Advantages",
+
+  "advantages": {
+    "scalability": "Scalability",
+    "scalability_txt": "Time effecient - find a new developer very fast. Availability - Choose from many highly educated Devolpers. One developer or even a whole team - you decide",
+    
+    "price_ratio": "Price Performance Ratio",
+    "price_ratio_txt":"Save up to 70% compared to what your company would pay for a regular developer with the same qualification and experience",
+
+    "flexibility": "Flexibility",
+    "flexibility_txt": "You are not bond to the traditional recruitment procedure. You can choose the runnig time. You get custome made solutions",
+
+    "transparency": "Transparency",
+    "transparency_txt": "No hidden costs, you will pay a monthly fee for your new employee - thats it!"
+  },
+
+  "levels_pricing": {
+    "junior": "Junior",
+    "junior_txt": "BS in computer science less than one year expierence",
+    "junior_price": "from € 1.500/month",
+
+    "inter": "Intermediate",
+    "inter_txt": "BS or MS in computer science 1-3 years of expierence",
+    "inter_price": "from € 2.250/month",
+    
+    "senior": "Senior",
+    "senior_txt": "BS or MS in computer science 3+ years of expierence",
+    "senior_price": "from € 3.000/month"
+  }
+}

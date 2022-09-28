@@ -1,0 +1,223 @@
+body{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+
+header{
+    top: 0;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(106, 209, 192), rgb(1, 117, 117));
+    height: 60px;
+    color: black;
+    z-index: 2;
+}
+
+.itdev{
+    font-weight: bolder;
+    font-size: 22px;
+    padding-left: 70px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.main{
+    top: 0;
+    background-color: snow;
+    height: 400px;
+}
+
+.imagecont{
+    z-index: 0;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+}
+
+.remotesoftware{
+    top: 30px;
+    left: 50%;
+    position: relative;
+    font-size: 50px;
+    background-color: rgba(0, 139, 139, 0.2);
+    width: 40%;
+    color: #183d8b;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(106, 209, 192);
+}
+
+.maindescription{
+    position: relative;
+    top: 40px;
+    left: 50%;
+    font-size: 30px;
+    background-color: rgba(0, 139, 139, 0.2);
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(106, 209, 192);
+}
+
+.service{
+    top: 0;
+    position: relative;
+    background-color: rgb(1, 117, 117);
+    width: auto;
+    height: 300px;
+    padding: 20px 140px 20px 150px;
+    color: aliceblue;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.steps{
+    background-color: azure;
+    width: auto;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 150px;
+    top: 0;
+    position: relative;
+}
+
+.advantages{
+    background-color: white;
+    width: auto;
+    height: auto;
+    color: rgb(1, 97, 97);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.advantages_content{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.advantages_item{
+    height: 270px;
+    width: 280px;
+    margin: 10px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first_two_shadows{
+    box-shadow: 1px 1px 4px 2px grey;
+}
+
+.second_two_shadows{
+    box-shadow: -1px 1px 4px 2px grey;
+}
+
+.first_two_shadows:hover{
+    box-shadow: 3px 1px 8px 2px grey;
+}
+
+.second_two_shadows:hover{
+    box-shadow: -3px 1px 8px 2px grey;
+}
+
+
+.advantages_text{
+    margin-top: 10px;
+}
+
+.advantages_img{
+    height: 100px;
+    width: 100px;
+}
+
+.levels{
+    background-color: rgb(117, 179, 179);
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.levels_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+    align-items: center;
+}
+
+.levels_item{
+    background-color: #fafafa;
+    height: 400px;
+    width: 350px;
+    margin: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.levels_item:hover{
+    box-shadow: 4px 4px 8px gray;
+    background-color: #fefefe;
+}
+
+.levels_title{
+    
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.levels_text{
+    
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 0;
+    margin: 20px 0;
+}
+
+.levels_bottom{
+    
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+footer{
+    background-color: rgb(0, 66, 66);
+    height: 130px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.headings{
+    font-size: 35px;
+    text-align: center;
+}
+
+.italic_title{
+    font-size: 20px;
+    margin: 0;
+}
+
+p.txt{
+    line-height: 1;
+    text-align: justify;
+}
+
+p.justif{
+    text-align: left;
+}
