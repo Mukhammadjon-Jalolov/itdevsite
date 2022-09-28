@@ -2,7 +2,6 @@ body{
     top: 0;
     margin: 0;
     padding: 0;
-    background-color: yellowgreen;
 }
 
 header{
@@ -74,13 +73,39 @@ header{
 }
 
 .steps{
-    background-color: azure;
+    background-image: url("../img/backgrounds-for.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
-    height: 400px;
+    height: 300px;
     padding-top: 10px;
-    padding-left: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     top: 0;
     position: relative;
+
+    
+}
+
+.steps_container{
+    width: 80%;
+    height: 350px;
+    border: 2px solid #183d8b;
+    display: flex;
+    flex-direction: row;
+}
+
+.steps_step{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    
+    user-select: none;
+    font-size: 18px;
+}
+
+.nextarrow{
+    width: 20px;
 }
 
 .advantages{
@@ -141,7 +166,10 @@ header{
 }
 
 .levels{
-    background-color: rgb(117, 179, 179);
+    background-image: url("../img/ranger-4df6c1b6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
     width: auto;
     height: auto;
     padding-top: 20px;
@@ -197,7 +225,7 @@ header{
 
 footer{
     background-color: rgb(0, 66, 66);
-    height: 130px;
+    height: 100px;
     padding: 10px 20px;
     color: white;
     font-size: 16px;

@@ -1,7 +1,4 @@
 
-
-
-
 window.onscroll = function(){scrollMenu()}
 
 function scrollMenu(){
