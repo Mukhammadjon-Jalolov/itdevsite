@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="css/langstyle.css">
         <link rel="stylesheet" href="css/tiny-slider.css">
 <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 
@@ -9,14 +10,28 @@
         <script src="https://mukhammadjon-jalolov.github.io/itdevsite/js/main.js" type="text/javascript"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+        <script src="./js/langscript.js"></script>
 <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
 
 
     </head>
     <body>
         <header id="topMenu">
-            <p class="itdev">ITDEV Austria</p>
-            <form>
+            <div class="tepasi">
+                <div class="itdev">ITDEV Austria</div>
+                
+                <div class="fform">
+                    <label for="language-picker-select" data-i18n="langselect">Select language</label>
+                    <select name="language-picker-select" id="language-picker-select">
+                      <option lang="de" value="de">Deutsch</option>
+                      <option lang="en" value="en" selected>English</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!--
+                <form>
                 <fieldset>
                     <label>
                         <input type="radio" name="lang" value="en" checked /> English
@@ -25,22 +40,20 @@
                         <input type="radio" name="lang" value="de" /> German
                     </label>
                 </fieldset>
-            </form>
-            
-            
+                </form>
+                -->
             
         </header>
         <div class="main">
             <div class="imagecont">
                 <img src="./img/20180926_171737.jpg" alt="" height="400px" width="600px">
             </div>
-            <div class="remotesoftware" id="remotesoft">
+            <div class="remotesoftware" id="remotesoft" data-i18n="remote">
                 Remote Software Development Resources
-                
             </div>
-            <div class="maindescription">
-                Staff augmentation for established companies through fully remote software development services from Central Asia.
 
+            <div class="maindescription" data-i18n="remote2">
+                Staff augmentation for established companies through fully remote software development services from Central Asia.
             </div>
             
         </div>
@@ -56,6 +69,9 @@
             <p data-i18n="service.service3">
                 We want you to get the opportunity to benefit from the various advantages, our long-term remote employees offer.
             </p>
+            
+            
+
         </div>
         <div class="steps"> <!-- DIV CLASS STEPS -->
 
@@ -203,6 +219,7 @@
             <h4>Contact details</h4>
             ITDEV Austria 2022 
         </footer>
+        
         
         <script type = "module" src="https://mukhammadjon-jalolov.github.io/itdevsite/js/index.js" type="text/javascript"></script>
 

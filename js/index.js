@@ -10,8 +10,14 @@ var translator = new Translator({
 
 translator.load();
 
-document.querySelector("form").addEventListener("click", function(evt) {
+
+document.querySelector("select").addEventListener("change", function(evt) {
+  console.log(evt.target.value)
+  translator.load(evt.target.value);
+  /*
   if (evt.target.tagName === "INPUT") {
     translator.load(evt.target.value);
-  }
+  } */
 });
+
+

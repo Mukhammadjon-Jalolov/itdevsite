@@ -30,6 +30,7 @@ class Translator {
     return lang.substr(0, 2);
   }
 
+  
   _fetch(path) {
     return fetch(path)
       .then(response => response.json())
