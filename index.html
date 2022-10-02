@@ -19,8 +19,18 @@
     <body>
         <header id="topMenu">
             <div class="tepasi">
-                <div class="itdev">ITDEV Austria</div>
+                <div class="logo">
+                    <img src="./img/itdev logo.png" alt="" width="130px">
+                </div>
                 
+                <div class="menus">
+                    <ul class="menulist">
+                        <li>Home</li>
+                        <li>Pricing</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+
                 <div class="fform">
                     <label for="language-picker-select" data-i18n="langselect">Select language</label>
                     <select name="language-picker-select" id="language-picker-select">
@@ -30,35 +40,19 @@
                 </div>
             </div>
             
-            <!--
-                <form>
-                <fieldset>
-                    <label>
-                        <input type="radio" name="lang" value="en" checked /> English
-                    </label>
-                    <label>
-                        <input type="radio" name="lang" value="de" /> German
-                    </label>
-                </fieldset>
-                </form>
-                -->
-            
         </header>
         <div class="main">
-            <div class="imagecont">
-                <img src="./img/20180926_171737.jpg" alt="" height="400px" width="600px">
-            </div>
-            <div class="remotesoftware" id="remotesoft" data-i18n="remote">
+            <div class="remotesoft">
                 Remote Software Development Resources
             </div>
 
-            <div class="maindescription" data-i18n="remote2">
+            <div class="staff">
                 Staff augmentation for established companies through fully remote software development services from Central Asia.
             </div>
             
         </div>
-        <div class="service">
-            <div class="headings" data-i18n="service.service"> <b>Service</b></div>
+        <div class="whatwedo">
+            <div class="headings" data-i18n="service.service"> <b>What we do</b></div>
 
             <p data-i18n="service.service1">
                 We offer full-time remote Software Developers from Central Asia, fitting your needs on a long-term basis. Regardless if you are looking for a newcomer to grow with your company or someone with more experience - we have the perfect match for you. Together we will find a developer in no time following our recruiting process as you see down below.
@@ -69,13 +63,12 @@
             <p data-i18n="service.service3">
                 We want you to get the opportunity to benefit from the various advantages, our long-term remote employees offer.
             </p>
-            
-            
-
         </div>
-        <div class="steps"> <!-- DIV CLASS STEPS -->
 
-            <!--
+        <div class="howwedo"> <!-- DIV CLASS STEPS -->
+
+            <div class="headings" data-i18n="service.service"> <b>How we do it</b></div>
+
             <div class="steps_container">
                 <div class="steps_step">
                     <h4 data-i18n="steps.steps1">1. Requirement profile</h4>
@@ -101,94 +94,52 @@
                     <h4 data-i18n="steps.steps5">5. Recruitment</h4>
                     <p data-i18n="steps.steps5_txt">You go through the CVs and the results of the tests and tell us which candidate you want to recruit.</p>
                 </div>
-            </div> -->
-
+            </div>
             
-
-            <div id="base_wrapper">
-                <div class="base" id="base">
-
-                    <div class="steps_step">
-                        <h4 data-i18n="steps.steps1">1. Requirement profile</h4>
-                        <p data-i18n="steps.steps1_txt">You tell us who you are looking for</p>
-                    </div>
-                        
-                    <div class="steps_step">
-                        <h4 data-i18n="steps.steps2">2. Screening</h4>
-                        <p data-i18n="steps.steps2_txt">We search for possible candidates and preselect them through our recruiting process</p>
-                    </div>
-    
-                    <div class="steps_step">
-                        <h4 data-i18n="steps.steps3">3. Test task</h4>
-                        <p data-i18n="steps.steps3_txt">With a test task the applicants will proof their capabilities</p>
-                    </div>
-    
-                    <div class="steps_step">
-                        <h4 data-i18n="steps.steps4">4. Evaluate</h4>
-                        <p data-i18n="steps.steps4_txt">After checking their skills we will send you the results</p>
-                    </div>
-    
-                    <div class="steps_step">
-                        <h4 data-i18n="steps.steps5">5. Recruitment</h4>
-                        <p data-i18n="steps.steps5_txt">You go through the CVs and the results of the tests and tell us which candidate you want to recruit.</p>
-                    </div>
-
-                </div>
-              </div>
         </div>
 
         <!-- TINY SLIDER TINY SLIDER TINY SLIDER TINY SLIDER -->
 
 
         <div class="advantages">
-            <div class="headings"><b data-i18n="advantages_main"> Advantages </b></div>
+            <div class="headings"><b data-i18n="advantages_main"> Your Advantages </b></div>
 
             <div class="advantages_content">
-                <div class="advantages_item first_two_shadows" >
-                    <div class="advantages_img">
-                        <img src="./img/scalability-new.png" alt="" width="100px" height="100px">
-                    </div>
-                    <div class="advantages_text">
-                        <p class="italic_title"><b data-i18n="advantages.scalability">Scalability</b></p>
-                        <p class="txt" data-i18n="advantages.scalability_txt1">Time effecient - find a new developer very fast</p>
-                        <p class="txt" data-i18n="advantages.scalability_txt2">Availability - Choose from many highly educated Devolpers</p>
-                        <p class="txt" data-i18n="advantages.scalability_txt3">One developer or even a whole team - you decide</p>
-                    </div>
-                </div>
-
-                <div class="advantages_item first_two_shadows">
-                    <div class="advantages_img">
-                        <img src="./img/golden-euro-coins.png" alt="" width="100px" height="100px">
-                    </div>
-                    <div class="advantages_text">
-                        <p class="italic_title"><b data-i18n="advantages.price_ratio">Price Performance Ratio</b></p>
-                        <p class="txt" data-i18n="advantages.price_ratio_txt">Save up to 70% compared to what your company would pay for a regular developer with the same qualification and experience</p>
-                    </div>
-                </div>
-                <div class="advantages_item second_two_shadows">
-                    <div class="advantages_img">
-                        <img src="./img/flexibility.png" alt="" width="100px" height="100px">
-                    </div>
-                    <div class="advantages_text">
-                        <p class="italic_title"><b data-i18n="advantages.flexibility">Flexibility</b></p>
-                        <p class="txt" data-i18n="advantages.flexibility_txt1">You are not bond to the traditional recruitment procedure</p>
-                        <p class="txt" data-i18n="advantages.flexibility_txt2">You can choose the runnig time</p>
-                        <p class="txt justif" data-i18n="advantages.flexibility_txt3">You get custome made solutions</p>
-                    </div>
-                </div>
-                <div class="advantages_item second_two_shadows">
-                    <div class="advantages_img">
-                        <img src="./img/transparency.png" alt="" width="90px" height="90px">
-                    </div>
-                    <div class="advantages_text">
-                        <p class="italic_title"><b data-i18n="advantages.transparency">Transparency</b></p>
-                        <p class="txt" data-i18n="advantages.transparency_txt">No hidden costs, you will pay a monthly fee for your new employee - thats it!</p>
-                    </div>
-                </div>
-                
-
+                        <div class="advantages_item" >
+                            <div class="advantages_img">
+                                <img src="./img/scalability.webp" alt="" height="280px">
+                            </div>
+                            <div class="advantages_text">
+                                Scalability
+                            </div>
+                        </div>
+                        <div class="advantages_item" >
+                            <div class="advantages_img">
+                                <img src="./img/costs.webp" alt="" height="280px">
+                            </div>
+                            <div class="advantages_text">
+                                Price-Performance-Ratio
+                            </div>
+                        </div>
+                        <div class="advantages_item" >
+                            <div class="advantages_img">
+                                <img src="./img/transparency.webp" alt="" height="280px">
+                            </div>
+                            <div class="advantages_text">
+                                Transparency
+                            </div>
+                        </div>
+                        <div class="advantages_item" >
+                            <div class="advantages_img">
+                                <img src="./img/flexibility.webp" alt="" height="280px">
+                            </div>
+                            <div class="advantages_text">
+                                Flexibility
+                            </div>
+                        </div>
             </div>
         </div>
+        
         <div class="levels">
             <div class="headings"><b data-i18n="levels_pricing_main">Levels & Pricing</b></div>
             <div class="levels_content">
@@ -215,9 +166,36 @@
                 </div>
             </div>
         </div>
+        
+        <div class="getintouch">
+            Get in Touch!
+            <form action="">
+                <label for="">First Name</label><input type="text">
+                
+
+            </form>
+        </div>
+
         <footer>
-            <h4>Contact details</h4>
-            ITDEV Austria 2022 
+            <div class="footer_content">
+                <div class="logo">
+                    <img src="./img/itdev logo.png" alt="" width="130px">
+                </div>
+                <div class="business">
+                    Business hours <br>
+                    Monday - Friday <br><br>
+                    08:00 - 17:00
+                </div>
+                <div class="address">
+                    Address: Dresdner Street 45/DG, A-1200 Vienna <br>
+                    Mail: office@it-dev.at <br>
+                    Phone: +43 650 74 29 952
+                </div>
+                <div class="imprint">
+                    Imprint     &nbsp;
+                    Privacy Policy
+                </div>
+            </div>
         </footer>
         
         
